@@ -1,7 +1,7 @@
 const express = require("express");
 const htmlRoute = require("./routes/htmlRoutes");
 
-const PORT = 2112; // this is my favorite numer so ....
+const PORT = 3007;
 const app = express();
 
 app.use(express.json()); // accept json data via server
@@ -13,3 +13,4 @@ app.use(htmlRoute);
 app.listen(PORT, () => {
   console.log("App listening on port: ", PORT);
 });
+s;
